@@ -1,0 +1,107 @@
+.debt-support
+ &__header
+  display: flex
+ &__peoples
+  display: flex
+  justify-content: space-between
+ &__redQuote,
+  position: absolute
+  width: 75%
+  top: 0px
+  left: 180px
+ &__greenQuote
+  position: absolute
+  width: 75%
+  top: 0px
+  left: -55px   
+ &__manPart, &__girlPart
+  width: 45%
+  position: relative
+ &__man
+  margin-top: 29%
+ &__girl
+  margin-left: 47%
+  margin-top: 24.1%
+ &__title
+  width: 30%
+  font-size: 35px
+  font-family: "ProximaNova-Bold"
+  margin-bottom: 30px
+  color: #2d6935
+  margin-right: 20px
+ &__subtitle
+  color: #1b212c
+  margin-bottom: 15px
+  width: 100%
+  line-height: 30px
+  font-size: 20px
+  margin-bottom: 40px
+@media(max-width: 1260px)
+ .debt-support__greenQuote, .debt-support__redQuote
+  width: 65%
+ .debt-support__girl 
+  margin-left: 38%
+  margin-top: 19.1%
+ .debt-support__man 
+  margin-top: 22%
+@media(max-width: 1075px)
+ .debt-support__greenQuote, .debt-support__redQuote
+  width: 60%
+ .debt-support__girl 
+  margin-left: 29%
+  margin-top: 14.1%
+ .debt-support__man 
+  margin-top: 19%
+ .debt-support__peoples
+  justify-content: space-around
+@media(max-width: 950px)
+ .debt-support__peoples
+  flex-direction: column
+  justify-content: center
+  align-items: center
+ .debt-support__manPart, .debt-support__girlPart
+  width: 90%
+  margin: 0 auto
+ .debt-support__redQuote
+  left: 195px
+ .debt-support__girl 
+  margin-left: 49%
+@media(max-width: 750px)
+ .debt-support__girl 
+  margin-left: 43%
+ .debt-support__greenQuote
+  margin-left: 15px
+@media(max-width: 650px)
+ .debt-support__header
+  flex-direction: column
+ .debt-support__title,  .debt-support__subtitle
+  text-align: center
+  width: 100%
+@media(max-width: 650px)
+ .debt-support__girl
+  margin-left: 42%
+  margin-top: 12.1%
+@media(max-width: 550px)
+ .debt-support__girl
+  margin-left: 37%
+  margin-top: 8.1%
+ .debt-support__greenQuote
+  margin-left: 20px
+@media(max-width: 450px)
+ .debt-support__girl, .debt-support__man
+  display: none
+ .debt-support__redQuote, .debt-support__greenQuote
+  width: 100%
+  position: static
+  left: 0
+  top: 0
+ .debt-support__manPart, .debt-support__girlPart
+  display: flex
+  justify-content: center
+ .debt-support__peoples
+  margin-right: 17px
+
+
+
+
+

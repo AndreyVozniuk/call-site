@@ -1,0 +1,76 @@
+.debt-solutions
+ margin-top: 160px
+ margin-bottom: 50px
+ &__title
+  font-size: 35px
+  font-family: "ProximaNova-Bold"
+  margin-bottom: 30px
+  color: #2d6935
+ &__text
+  color: #1b212c
+  margin-bottom: 15px
+  width: 100%
+  line-height: 30px
+  font-size: 20px
+ &__line
+  width: 100%
+  height: 0.8px
+  background: #142445
+  margin-bottom: 50px
+  margin-top: 40px
+ &-available
+  display: flex
+  &__title2
+   width: 37%
+   font-size: 35px
+   font-family: "ProximaNova-Bold"
+   color: #142445
+   margin-right: 90px
+  &__availableItems
+   width: 35%
+  &__availableItem
+   display: flex
+   align-items: center
+   margin-bottom: 15px
+   & >*:nth-child(1)
+    margin-right: 15px
+    width: 3.7%
+    height: 3px
+    background: #142445
+   & >*:nth-child(2)
+    font-family: "ProximaNova-Bold"
+    color: #ef4649
+    font-size: 18px
+#line2Available, #line4Available
+ height: 3.19px
+@media(max-width: 1150px)
+ .debt-solutions
+  margin-top: 0px
+@media(max-width: 850px)
+ .debt-solutions-available__availableItems
+  width: 45%
+@media(max-width: 700px)
+ .debt-solutions__title, .debt-solutions__text  
+  text-align: center
+@media(max-width: 650px)
+ .debt-solutions
+  margin-bottom: 3px
+ .debt-solutions-available
+  flex-direction: column
+  align-items: center
+  justify-content: center 
+ .debt-solutions-available__availableItems
+  width: 90%
+  margin-left: 10%
+ .debt-solutions-available__availableItem
+  & >*:nth-child(1)
+   width: 4% 
+  & >*:nth-child(2)
+   font-size: 20px
+ .debt-solutions-available__title2
+  width: 100%
+  margin-right: 0px
+  text-align: center
+  margin-bottom: 35px
+  
+ 

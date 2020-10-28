@@ -1,0 +1,39 @@
+.headerBG
+  width: 100%
+  background-color: #142445
+  height: 165px
+  display: flex
+  align-items: center
+.header
+  display: flex
+  align-items: center
+  justify-content: space-between
+  flex-wrap: wrap
+  &-enquires
+   width: 170px
+   display: flex
+   flex-direction: column 
+   &__title
+     font-family: "ProximaNova-semiBold"
+     color: #ffffff
+     padding-bottom: 9px
+     font-size: 21px
+   &__number
+     font-family: "ProximaNova-semiBold"
+     color: #fbb033
+     font-size: 22px
+@media(max-width: 700px)
+ .header
+  justify-content: center
+  flex-direction: column
+  &-enquires
+   width: 190px
+   &__title
+    font-size: 24px
+   &__number
+    font-size: 25px
+  &-logo
+   margin-bottom: 20px
+.headerBG
+  height: 235px
+ 

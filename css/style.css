@@ -1,0 +1,1089 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "ProximaNova-Regular";
+}
+
+.headerBG {
+  width: 100%;
+  background-color: #142445;
+  height: 165px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.header-enquires {
+  width: 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header-enquires__title {
+  font-family: "ProximaNova-semiBold";
+  color: #ffffff;
+  padding-bottom: 9px;
+  font-size: 21px;
+}
+
+.header-enquires__number {
+  font-family: "ProximaNova-semiBold";
+  color: #fbb033;
+  font-size: 22px;
+}
+
+@media (max-width: 700px) {
+  .header {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header-enquires {
+    width: 190px;
+  }
+  .header-enquires__title {
+    font-size: 24px;
+  }
+  .header-enquires__number {
+    font-size: 25px;
+  }
+  .header-logo {
+    margin-bottom: 20px;
+  }
+}
+
+.headerBG {
+  height: 235px;
+}
+
+.callNow {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 50px;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.callNow > *:nth-child(1) {
+  color: #142445;
+  font-family: "ProximaNova-Bold";
+  margin-right: 60px;
+  font-size: 34px;
+}
+
+.callNow > *:nth-child(2) {
+  color: #fbb033;
+  font-family: "ProximaNova-Bold";
+  font-size: 34px;
+}
+
+@media (max-width: 1000px) {
+  .callNow > *:nth-child(1), .callNow > *:nth-child(2) {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 700px) {
+  .callNow > *:nth-child(1) {
+    font-size: 23px;
+    margin-right: 40px;
+  }
+  .callNow > *:nth-child(2) {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 600px) {
+  .callNow > *:nth-child(1) {
+    font-size: 21px;
+    margin-right: 30px;
+  }
+  .callNow > *:nth-child(2) {
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 500px) {
+  .callNow {
+    margin-bottom: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  .callNow > *:nth-child(1) {
+    font-size: 24px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 15px;
+  }
+  .callNow > *:nth-child(2) {
+    font-size: 24px;
+  }
+}
+
+.callBack {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.callBack-title {
+  font-family: "ProximaNova-Bold";
+  text-align: center;
+  color: #ef4649;
+  font-size: 50px;
+  margin-bottom: 28px;
+}
+
+.callBack-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 50px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.callBack-form {
+  background-color: #1571c3;
+  width: 49%;
+  margin-right: 40px;
+  position: relative;
+}
+
+.callBack-form__man {
+  width: 68%;
+  position: absolute;
+  left: -221px;
+  z-index: -1;
+  top: 74px;
+}
+
+.callBack-form__textUp {
+  width: 80%;
+  margin: auto;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 15px;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+
+.callBack-form__inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.callBack-form__inputs > input {
+  width: 95%;
+  margin: auto;
+  border: none;
+  border-radius: 5px;
+  height: 55px;
+  margin-bottom: 15px;
+  font-family: "ProximaNova-Regular";
+  padding-left: 8px;
+  font-size: 14px;
+}
+
+.callBack-form__button {
+  width: 95%;
+  background-color: #ef4649;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  height: 55px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "ProximaNova-Regular";
+  font-size: 16px;
+}
+
+.callBack-form__textDown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.callBack-form__textDown > div {
+  text-align: center;
+}
+
+.callBack-form__textDown > *:nth-child(1) {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 8px;
+  margin-top: 9px;
+}
+
+.callBack-form__textDown > *:nth-child(2) {
+  color: #fbb033;
+  line-height: 22px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.callBack-help {
+  width: 45%;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.callBack-help__title {
+  color: #2d6935;
+  margin-bottom: 10px;
+  font-size: 19px;
+  font-family: "ProximaNova-Bold";
+}
+
+.callBack-help__items {
+  margin-top: 30px;
+}
+
+.callBack-help__item {
+  margin-bottom: 23px;
+  font-size: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.callBack-help__item > *:nth-child(1) {
+  width: 4%;
+  margin-right: 25px;
+  margin-top: 1.5px;
+}
+
+.callBack-help__quote {
+  color: #2d6935;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-family: "ProximaNova-Bold";
+}
+
+.callBack-help__frances > *:nth-child(1) {
+  font-family: "ProximaNova-SemiBold";
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.callBack-help__frances > *:nth-child(2) {
+  line-height: 23px;
+}
+
+@media (max-width: 1300px) {
+  .callBack-form {
+    width: 40%;
+  }
+  .callBack-form__man {
+    width: 65%;
+    left: -175px;
+    top: 200px;
+  }
+  .callBack-form__textUp {
+    width: 97%;
+  }
+  .callBack-help {
+    width: 37%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .callBack-help {
+    width: 60%;
+    margin-top: 50px;
+    margin-left: 4px;
+  }
+  .callBack-content {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 11px;
+  }
+  .callBack-form {
+    width: 60%;
+    margin-right: 0px;
+  }
+  .callBack-form__man {
+    width: 55%;
+    top: 104px;
+    left: -218px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .callBack-form__man {
+    width: 55%;
+    top: 149px;
+    left: -195px;
+  }
+}
+
+@media (max-width: 900px) {
+  .callBack-form__man {
+    display: none;
+  }
+  .callBack-help {
+    width: 85%;
+  }
+  .callBack-form {
+    width: 85%;
+  }
+}
+
+@media (max-width: 600px) {
+  .callBack-help {
+    width: 90%;
+  }
+  .callBack-title {
+    font-size: 36px;
+  }
+  .callBack-form {
+    width: 90%;
+  }
+  .callBack-form__textUp {
+    font-size: 14px;
+  }
+  .callBack-form__inputs > input {
+    width: 88%;
+  }
+  .callBack-form__button {
+    width: 90%;
+  }
+}
+
+@media (max-width: 500px) {
+  #secondItem_Help {
+    width: 10%;
+  }
+  #firstItem_Help {
+    width: 20%;
+  }
+  .callBack {
+    margin-bottom: 40px;
+  }
+  .callBack-content {
+    margin-left: 0px;
+  }
+  .callBack-title {
+    font-size: 25px;
+  }
+  .callBack-help__item > *:nth-child(1) {
+    width: 12%;
+  }
+  .callBack-help__quote {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 15px;
+  }
+  .callBack-form__button {
+    height: 45px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .callBack-form__inputs > input {
+    height: 45px;
+    font-size: 12px;
+    width: 88%;
+  }
+  .callBack-form__textUp {
+    font-size: 10px;
+    line-height: 22px;
+  }
+  .callBack-form__textDown > *:nth-child(1) {
+    font-size: 14px;
+  }
+  .callBack-form__textDown > *:nth-child(2) {
+    line-height: 20px;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+}
+
+.cloudHelp, .adviceMan {
+  margin-bottom: 10px;
+  margin: 0 auto;
+  width: 93%;
+}
+
+@media (max-width: 550px) {
+  .cloudHelp {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .adviceMan {
+    width: 100%;
+  }
+}
+
+.partners {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+  .partners {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+@media (max-width: 550px) {
+  .partners > :nth-child(1), .partners > :nth-child(2), .partners > :nth-child(3) {
+    margin-bottom: 10px;
+  }
+}
+
+.debt-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 55px;
+  margin-bottom: 40px;
+}
+
+.debt-info-text {
+  width: 49%;
+}
+
+.debt-info-text__title {
+  font-size: 35px;
+  font-family: "ProximaNova-Bold";
+  margin-bottom: 20px;
+  color: #2d6935;
+}
+
+.debt-info-text__subtitle {
+  width: 80%;
+  line-height: 23px;
+  font-size: 16px;
+}
+
+@media (max-width: 650px) {
+  .debt-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .debt-info-text {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .debt-subtitle_first {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .debt-info-text__title {
+    font-size: 27px;
+  }
+}
+
+.debt-solutions {
+  margin-top: 160px;
+  margin-bottom: 50px;
+}
+
+.debt-solutions__title {
+  font-size: 35px;
+  font-family: "ProximaNova-Bold";
+  margin-bottom: 30px;
+  color: #2d6935;
+}
+
+.debt-solutions__text {
+  color: #1b212c;
+  margin-bottom: 15px;
+  width: 100%;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.debt-solutions__line {
+  width: 100%;
+  height: 0.8px;
+  background: #142445;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+
+.debt-solutions-available {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.debt-solutions-available__title2 {
+  width: 37%;
+  font-size: 35px;
+  font-family: "ProximaNova-Bold";
+  color: #142445;
+  margin-right: 90px;
+}
+
+.debt-solutions-available__availableItems {
+  width: 35%;
+}
+
+.debt-solutions-available__availableItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+
+.debt-solutions-available__availableItem > *:nth-child(1) {
+  margin-right: 15px;
+  width: 3.7%;
+  height: 3px;
+  background: #142445;
+}
+
+.debt-solutions-available__availableItem > *:nth-child(2) {
+  font-family: "ProximaNova-Bold";
+  color: #ef4649;
+  font-size: 18px;
+}
+
+#line2Available, #line4Available {
+  height: 3.19px;
+}
+
+@media (max-width: 1150px) {
+  .debt-solutions {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 850px) {
+  .debt-solutions-available__availableItems {
+    width: 45%;
+  }
+}
+
+@media (max-width: 700px) {
+  .debt-solutions__title, .debt-solutions__text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 650px) {
+  .debt-solutions {
+    margin-bottom: 3px;
+  }
+  .debt-solutions-available {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .debt-solutions-available__availableItems {
+    width: 90%;
+    margin-left: 10%;
+  }
+  .debt-solutions-available__availableItem > *:nth-child(1) {
+    width: 4%;
+  }
+  .debt-solutions-available__availableItem > *:nth-child(2) {
+    font-size: 20px;
+  }
+  .debt-solutions-available__title2 {
+    width: 100%;
+    margin-right: 0px;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+}
+
+.debt-help {
+  position: relative;
+  margin-bottom: 125px;
+}
+
+.debt-help__title {
+  font-size: 35px;
+  font-family: "ProximaNova-Bold";
+  margin-bottom: 30px;
+  color: #2d6935;
+  width: 34%;
+}
+
+.debt-help__row {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.debt-help__man {
+  width: 33%;
+  position: absolute;
+  z-index: -1;
+  left: 859px;
+  top: 229px;
+}
+
+.debt-help__line {
+  width: 100%;
+  height: 1px;
+  background: #142445;
+  margin-top: 121px;
+  position: absolute;
+  z-index: -2;
+}
+
+.debt-help-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 20%;
+  height: 140px;
+  width: 280px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.debt-help-item:hover {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.debt-help-item__icon {
+  width: 25%;
+  margin-right: 10px;
+}
+
+.debt-help-item__text {
+  font-size: 18px;
+  font-family: "ProximaNova-SemiBold";
+  width: 47%;
+}
+
+.debt-help-itemLonger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30%;
+  height: 140px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.debt-help-itemLonger:hover {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.debt-help-itemLonger__icon {
+  width: 20%;
+  margin-right: 25px;
+}
+
+.debt-help-itemLonger__text {
+  font-size: 18px;
+  font-family: "ProximaNova-SemiBold";
+  width: 55%;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 1320px) {
+  .debt-help__man {
+    width: 24%;
+    left: 873px;
+    top: 238px;
+  }
+  .debt-help__line {
+    margin-top: -9px;
+  }
+}
+
+@media (max-width: 1160px) {
+  .debt-help {
+    margin-bottom: 60px;
+  }
+  .debt-help-item {
+    width: 246px;
+  }
+  .debt-help__man {
+    width: 23%;
+    left: 774px;
+    top: 271px;
+  }
+  .debt-help__line {
+    margin-top: 3px;
+  }
+}
+
+@media (max-width: 1070px) {
+  .debt-help-item {
+    width: 239px;
+  }
+  .debt-help__man {
+    left: 759px;
+    top: 258px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .debt-help__man {
+    display: none;
+  }
+  .debt-help-item {
+    width: 23%;
+    height: 125px;
+  }
+  .debt-help-itemLonger {
+    width: 40%;
+  }
+  .debt-help-itemLonger__text, .debt-help-item__text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 800px) {
+  .debt-help-item {
+    width: 31%;
+    height: 125px;
+  }
+  .debt-help-itemLonger {
+    width: 40%;
+    height: 125px;
+  }
+  .debt-help-itemLonger__text, .debt-help-item__text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 650px) {
+  .debt-help__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .debt-help-item, .debt-help-itemLonger {
+    width: 85%;
+  }
+  .debt-help-item__icon, .debt-help-itemLonger__icon {
+    width: 14%;
+    margin-right: 35px;
+  }
+  .debt-help-item__text, .debt-help-itemLonger__text {
+    font-size: 22px;
+    text-align: center;
+  }
+  .debt-help__title {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.debt-advantages {
+  border-top: 1px solid #142445;
+  margin-top: 60px;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #142445;
+  margin-bottom: 70px;
+}
+
+.debt-support__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.debt-support__peoples {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.debt-support__redQuote {
+  position: absolute;
+  width: 75%;
+  top: 0px;
+  left: 180px;
+}
+
+.debt-support__greenQuote {
+  position: absolute;
+  width: 75%;
+  top: 0px;
+  left: -55px;
+}
+
+.debt-support__manPart, .debt-support__girlPart {
+  width: 45%;
+  position: relative;
+}
+
+.debt-support__man {
+  margin-top: 29%;
+}
+
+.debt-support__girl {
+  margin-left: 47%;
+  margin-top: 24.1%;
+}
+
+.debt-support__title {
+  width: 30%;
+  font-size: 35px;
+  font-family: "ProximaNova-Bold";
+  margin-bottom: 30px;
+  color: #2d6935;
+  margin-right: 20px;
+}
+
+.debt-support__subtitle {
+  color: #1b212c;
+  margin-bottom: 15px;
+  width: 100%;
+  line-height: 30px;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 1260px) {
+  .debt-support__greenQuote, .debt-support__redQuote {
+    width: 65%;
+  }
+  .debt-support__girl {
+    margin-left: 38%;
+    margin-top: 19.1%;
+  }
+  .debt-support__man {
+    margin-top: 22%;
+  }
+}
+
+@media (max-width: 1075px) {
+  .debt-support__greenQuote, .debt-support__redQuote {
+    width: 60%;
+  }
+  .debt-support__girl {
+    margin-left: 29%;
+    margin-top: 14.1%;
+  }
+  .debt-support__man {
+    margin-top: 19%;
+  }
+  .debt-support__peoples {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+@media (max-width: 950px) {
+  .debt-support__peoples {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .debt-support__manPart, .debt-support__girlPart {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .debt-support__redQuote {
+    left: 195px;
+  }
+  .debt-support__girl {
+    margin-left: 49%;
+  }
+}
+
+@media (max-width: 750px) {
+  .debt-support__girl {
+    margin-left: 43%;
+  }
+  .debt-support__greenQuote {
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 650px) {
+  .debt-support__header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .debt-support__title, .debt-support__subtitle {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 650px) {
+  .debt-support__girl {
+    margin-left: 42%;
+    margin-top: 12.1%;
+  }
+}
+
+@media (max-width: 550px) {
+  .debt-support__girl {
+    margin-left: 37%;
+    margin-top: 8.1%;
+  }
+  .debt-support__greenQuote {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .debt-support__girl, .debt-support__man {
+    display: none;
+  }
+  .debt-support__redQuote, .debt-support__greenQuote {
+    width: 100%;
+    position: static;
+    left: 0;
+    top: 0;
+  }
+  .debt-support__manPart, .debt-support__girlPart {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .debt-support__peoples {
+    margin-right: 17px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
